@@ -9,9 +9,12 @@ let package = Package(
         .macOS(.v11)
     ],
     products: [
-        .executable(name: "holepunch", targets: [
-            "HolePunch"
-        ])
+        .executable(
+            name: "holepunch",
+            targets: [
+                "HolePunch"
+            ]
+        )
     ],
     dependencies: [
         .package(
