@@ -13,8 +13,7 @@ private struct Segment {
     var isHole: Bool
 }
 
-// This is not working until Swift 5.5 that supports `@main`.
-// @main
+@main
 struct Command: ParsableCommand {
     @Flag(name: [.customShort("p"), .long], help: "Show progress.")
     private var showProgress = false
